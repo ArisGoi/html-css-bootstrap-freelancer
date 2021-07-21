@@ -9,6 +9,11 @@
     background-color: #3a546d;
 }
 
+.small_container{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
 /* Typo */
 h1, h2, h3{
     text-transform: uppercase;
