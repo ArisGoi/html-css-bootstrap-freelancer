@@ -99,11 +99,28 @@ header a{
     background-color: #2c3e50;
     border-radius: 15px;
     overflow: hidden;
+    position: relative;
 }
 .img_port img{
     height: 100%;
     width: 100%;
     object-fit: cover;
+}
+.img_port:hover::after{
+    content: '\f067';
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 120px;
+    color: white;
+    line-height: 200%;
+    text-align: center;
+    top: 0;
+    left: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #1abc9c;
+    filter: opacity(0.95);
 }
 
 /* About Section */
