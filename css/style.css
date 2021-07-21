@@ -134,16 +134,6 @@ header a{
     margin: 0 auto;
 }
 
-/* Footer */
-[id^="footer-"]{
-    color: white;
-}
-
-a.highlight{
-    text-decoration: none;
-    color: #1abc9c;
-}
-
 #contact-me ::placeholder{
     color: #3a546d;
 }
@@ -158,3 +148,27 @@ a.highlight{
 #contact-me button{
     color: white;
 }
+
+/* Footer */
+[id^="footer-"]{
+    color: white;
+}
+
+a.highlight{
+    text-decoration: none;
+    color: #1abc9c;
+}
+
+.social_container{
+    font-size: 20px;
+}
+.social_container i{
+    padding-top: 8px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid white;
+    margin-right: 6px;
+    margin-bottom: 10px;
+}
+    
