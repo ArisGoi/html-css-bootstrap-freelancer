@@ -1,8 +1,44 @@
 /* common */
+.hr_separate{
+    padding: 15px 0px;
+}
+.hr_separate i{
+    font-size: 35px;
+}
+.hr_separate span{
+    position: relative;
+    display: inline-block;
+    height: 100%;
+}
+.hr_separate.hr_black span::before, .hr_separate.hr_black span::after{
+    color: black;
+    background-color: black;
+}
+.hr_separate span::before, .hr_separate span::after{
+    content: '';
+    height: 8px;
+    width: 170px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: white;
+    color: white;
+}
+.hr_separate span::before{
+    left: calc(-170px - 25px);
+}
+.hr_separate span::after{
+    right: calc(-170px - 25px);
+}
+
 
 /* Typo */
 h1, h2, h3{
     text-transform: uppercase;
+}
+
+p{
+    font-size: 20px;
 }
 
 /* Header */
