@@ -32,35 +32,19 @@ button.btn_first{
 
 /* Separatore */
 .hr_separate{
-    padding: 15px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    padding: 20px 0px;
 }
-.hr_separate i{
-    font-size: 35px;
-}
-.hr_separate span{
-    position: relative;
-    display: inline-block;
-    height: 100%;
-}
-.hr_separate.hr_black span::before, .hr_separate.hr_black span::after{
-    color: black;
-    background-color: black;
-}
-.hr_separate span::before, .hr_separate span::after{
+.hr_separate::before, .hr_separate::after{
     content: '';
     height: 8px;
     width: 170px;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background-color: white;
-    color: white;
-}
-.hr_separate span::before{
-    left: calc(-170px - 25px);
-}
-.hr_separate span::after{
-    right: calc(-170px - 25px);
+    background-color: currentColor;
+    margin: 0 20px;
+    border-radius: 30px;
 }
 
 /* Header */
